@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG sessions Test automation Suite">
+    <test name="Different features Test">
+    
+    <parameter name = "browser" value="firefox"/>
+    <parameter name = "username" value="nagamanikandans@gmail.com"/>
+    <parameter name = "password" value="Test1234"/>
+    <parameter name = "url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+    
+         <classes>
+    <!--      <class name="test.DepencyFeatures"/>
+             <class name="test.GoogleTitleTest"/>
+             <class name="test.InvocationCount"/>
+             <class name="test.sampleTestNG"/>  -->
+             <class name="test.parameterTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

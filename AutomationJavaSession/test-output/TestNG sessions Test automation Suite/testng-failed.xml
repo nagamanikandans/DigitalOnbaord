@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG sessions Test automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Different features Test(failed)">
+    <parameter name="password" value="Test1234"/>
+    <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+    <parameter name="username" value="nagamanikandans@gmail.com"/>
+    <classes>
+      <class name="test.parameterTest">
+        <methods>
+          <include name="LoginRediffMail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.parameterTest -->
+    </classes>
+  </test> <!-- Different features Test(failed) -->
+</suite> <!-- Failed suite [TestNG sessions Test automation Suite] -->
